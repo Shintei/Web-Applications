@@ -1,0 +1,60 @@
+
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+	  #Report{
+		  width:100%;
+		  margin: 20px 0px;
+		  margin-top:5px;
+		  padding: 5px;
+		  height: 1200px;
+		  display:-webkit-box;
+		  -webkit-box-pack:center;
+		  
+	  }
+	  #Menu{
+		max-width: 1000px;
+		  -webkit-box-orient: horizontal;
+		  -webkit-box-flex: 1;
+		  background-image: url("http://legendarywomen.org/sites/default/files/CDRF%20Image.gif");
+		  text-align:center;
+		  border: 3px solid black;  
+	  }
+	  #TopMenu{
+		  -webkit-box-orient:horizontal;
+		  -webkit-box-flex:1;
+	  }
+	  #TopMenu li{
+		  display:inline-block;
+		  list-style:none;
+		  padding: 50px;
+		  font: bold 14px Tahoma;
+		  margin:20px auto;
+		  width: 300px;
+		  background-color: gray;
+		  height: 300px;
+		  text-align: center;
+		  padding-top: 100px;
+		  -webkit-border-radius:25px;
+	  }
+	  #BotMenu{-webkit-box-orient:horizontal;
+	  -webkit-box-flex:1;
+	  }
+	  
+	  #BotMenu li{
+		display:inline-block;
+		list-style:none;
+		padding: 5px;
+		font: bold 14px Tahoma;
+		margin-top: 10px;
+		margin: 30px auto;
+		width: 400px;
+		background-color:gray;
+		height: 100px;
+		-webkit-border-radius:25px;
+	  }
